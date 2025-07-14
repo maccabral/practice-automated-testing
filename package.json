@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "cypress open"
+    "test": "cypress open",
+    "cy:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@types/node": "^24.0.3",
     "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
     "cypress": "^14.5.0",
     "cypress-file-upload": "^5.0.8",
     "typescript": "^5.8.3"
